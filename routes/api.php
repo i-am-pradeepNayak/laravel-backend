@@ -34,3 +34,5 @@ Route::get("getjob/showpost/{id}", [AddPostController::class, 'showpost']);
 Route::put("modify/{id}", [AddPostController::class, 'update']);
 Route::delete('remove/{id}', [AddPostController::class, 'destroy']);
 Route::get('viewjob/{id}', [AddPostController::class, 'viewjob']);
+
+Route::get('viewjob/{id}', [AddPostController::class, 'viewjob']);
