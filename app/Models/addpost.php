@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class addpost extends Model
 {
     use HasFactory;
-    protected $primaryKey = 'jobid';
+    protected $primaryKey = 'joid';
     protected $fillable = [
         'cid', 'cname', 'jobid', 'jobtype', 'jobspec', 'skills',
         'jqualy', 'jhires', 'jexpo', 'jloc', 'jpack', 'jtime'
